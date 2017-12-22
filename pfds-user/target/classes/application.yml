@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: core
+  application:
+    name: pfds-user
+server:
+  port: 19091
+logging:
+  config: classpath:logback.xml    

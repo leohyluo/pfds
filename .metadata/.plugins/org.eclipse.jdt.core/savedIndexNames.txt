@@ -1,0 +1,1 @@
+INDEX VERSION 1.127+F:\iebm\workspace\ssm\trunk\pfds\.metadata\.plugins\org.eclipse.jdt.core

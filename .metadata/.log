@@ -1,0 +1,1615 @@
+!SESSION 2017-12-21 16:36:05.757 -----------------------------------------------
+eclipse.buildId=3.7.2.201511261048-RELEASE-e45
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.m2e.wtp.jpa 4 0 2017-12-21 16:36:14.505
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.m2e.wtp.jpa [612]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.core; bundle-version="3.3.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-21 16:38:09.919
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:12.586
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\com.collabnet.subversion.merge.feature_3.0.13.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:12.624
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\net.java.dev.jna_3.4.0.t20120117_1605.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:12.631
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.feature_1.8.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:12.653
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.javahl.feature_1.7.10.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:12.661
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.svnkit.feature_1.7.9.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:12.668
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse.graph.feature_1.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:12.670
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:12.690
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse_1.8.22.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:12.699
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tmatesoft.svnkit_1.7.9.r9659_v20130411_2103.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:13.808
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\com.collabnet.subversion.merge.feature_3.0.13.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:13.809
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\net.java.dev.jna_3.4.0.t20120117_1605.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:13.813
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.feature_1.8.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:13.814
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.javahl.feature_1.7.10.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:13.815
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.svnkit.feature_1.7.9.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:13.816
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse.graph.feature_1.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:13.817
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:13.818
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse_1.8.22.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 16:38:13.819
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tmatesoft.svnkit_1.7.9.r9659_v20130411_2103.jar.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 16:47:22.176
+!MESSAGE The POM for fakepath:bsh:jar:2.0b4 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 16:47:47.103
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 16:47:47.135
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 16:47:58.330
+!MESSAGE The POM for fakepath:bsh:jar:2.0b4 is missing, no dependency information available
+
+!ENTRY org.eclipse.jface 2 0 2017-12-21 16:48:04.166
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-12-21 16:48:04.166
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@60d4e243,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b38d28e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-12-21 16:48:11.652
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-12-21 16:48:11.653
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin org.eclipse.cft.server.branding.core.
+
+!ENTRY org.eclipse.ui 2 2 2017-12-21 16:48:17.416
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 16:48:21.520
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 16:48:21.523
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 16:48:29.409
+!MESSAGE The POM for fakepath:bsh:jar:2.0b4 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 16:51:01.792
+!MESSAGE Could not transfer metadata fakepath:bsh/maven-metadata.xml from/to nexus (http://maven.oschina.net/content/groups/public/): connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 16:51:01.805
+!MESSAGE Failure to transfer fakepath:bsh/maven-metadata.xml from http://maven.oschina.net/content/groups/public/ was cached in the local repository, resolution will not be reattempted until the update interval of nexus has elapsed or updates are forced. Original error: Could not transfer metadata fakepath:bsh/maven-metadata.xml from/to nexus (http://maven.oschina.net/content/groups/public/): connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 16:51:29.268
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 16:51:29.277
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2017-12-21 16:51:41.395
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.alpha.api.gateway.AlphaApiGatewayStarter]; nested exception is java.lang.IllegalArgumentException: Cannot instantiate factory class: org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:461)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:185)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:328)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Cannot instantiate factory class: org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:138)
+	at org.springframework.core.io.support.SpringFactoriesLoader.loadFactories(SpringFactoriesLoader.java:91)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationImportFilters(AutoConfigurationImportSelector.java:280)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.filter(AutoConfigurationImportSelector.java:251)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:102)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:453)
+	... 15 more
+Caused by: java.lang.IllegalAccessException: Class org.springframework.core.io.support.SpringFactoriesLoader can not access a member of class org.springframework.boot.autoconfigure.condition.OnClassCondition with modifiers ""
+	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:135)
+	... 20 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2017-12-21 16:51:41.400
+!MESSAGE Internal Error
+!STACK 0
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.alpha.api.gateway.AlphaApiGatewayStarter]; nested exception is java.lang.IllegalArgumentException: Cannot instantiate factory class: org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:461)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:185)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:328)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Cannot instantiate factory class: org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:138)
+	at org.springframework.core.io.support.SpringFactoriesLoader.loadFactories(SpringFactoriesLoader.java:91)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationImportFilters(AutoConfigurationImportSelector.java:280)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.filter(AutoConfigurationImportSelector.java:251)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:102)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:453)
+	... 15 more
+Caused by: java.lang.IllegalAccessException: Class org.springframework.core.io.support.SpringFactoriesLoader can not access a member of class org.springframework.boot.autoconfigure.condition.OnClassCondition with modifiers ""
+	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:135)
+	... 20 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2017-12-21 16:51:48.761
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.alpha.server.discovery.ServerDiscoveryStarter]; nested exception is java.lang.IllegalArgumentException: Cannot instantiate factory class: org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:461)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:185)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:328)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Cannot instantiate factory class: org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:138)
+	at org.springframework.core.io.support.SpringFactoriesLoader.loadFactories(SpringFactoriesLoader.java:91)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationImportFilters(AutoConfigurationImportSelector.java:280)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.filter(AutoConfigurationImportSelector.java:251)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:102)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:453)
+	... 15 more
+Caused by: java.lang.IllegalAccessException: Class org.springframework.core.io.support.SpringFactoriesLoader can not access a member of class org.springframework.boot.autoconfigure.condition.OnClassCondition with modifiers ""
+	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:135)
+	... 20 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2017-12-21 16:51:48.762
+!MESSAGE Internal Error
+!STACK 0
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.alpha.server.discovery.ServerDiscoveryStarter]; nested exception is java.lang.IllegalArgumentException: Cannot instantiate factory class: org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:461)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:185)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:328)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Cannot instantiate factory class: org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:138)
+	at org.springframework.core.io.support.SpringFactoriesLoader.loadFactories(SpringFactoriesLoader.java:91)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationImportFilters(AutoConfigurationImportSelector.java:280)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.filter(AutoConfigurationImportSelector.java:251)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:102)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:453)
+	... 15 more
+Caused by: java.lang.IllegalAccessException: Class org.springframework.core.io.support.SpringFactoriesLoader can not access a member of class org.springframework.boot.autoconfigure.condition.OnClassCondition with modifiers ""
+	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:135)
+	... 20 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2017-12-21 16:52:04.147
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.alpha.self.diagnosis.AlphaApplication]; nested exception is java.lang.IllegalArgumentException: Cannot instantiate factory class: org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:461)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:185)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:328)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Cannot instantiate factory class: org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:138)
+	at org.springframework.core.io.support.SpringFactoriesLoader.loadFactories(SpringFactoriesLoader.java:91)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationImportFilters(AutoConfigurationImportSelector.java:280)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.filter(AutoConfigurationImportSelector.java:251)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:102)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:453)
+	... 15 more
+Caused by: java.lang.IllegalAccessException: Class org.springframework.core.io.support.SpringFactoriesLoader can not access a member of class org.springframework.boot.autoconfigure.condition.OnClassCondition with modifiers ""
+	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:135)
+	... 20 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2017-12-21 16:52:04.151
+!MESSAGE Internal Error
+!STACK 0
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.alpha.self.diagnosis.AlphaApplication]; nested exception is java.lang.IllegalArgumentException: Cannot instantiate factory class: org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:461)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:185)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:328)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Cannot instantiate factory class: org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:138)
+	at org.springframework.core.io.support.SpringFactoriesLoader.loadFactories(SpringFactoriesLoader.java:91)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationImportFilters(AutoConfigurationImportSelector.java:280)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.filter(AutoConfigurationImportSelector.java:251)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:102)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:453)
+	... 15 more
+Caused by: java.lang.IllegalAccessException: Class org.springframework.core.io.support.SpringFactoriesLoader can not access a member of class org.springframework.boot.autoconfigure.condition.OnClassCondition with modifiers ""
+	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:135)
+	... 20 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:01:09.843
+!MESSAGE Launch configuration ServerDiscoveryStarter references non-existing project alpha-server-discovery.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ServerDiscoveryStarter references non-existing project alpha-server-discovery.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:919)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-12-21 17:01:09.844
+!MESSAGE Launch configuration ServerDiscoveryStarter references non-existing project alpha-server-discovery.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:01:09.845
+!MESSAGE Launch configuration ServerDiscoveryStarter references non-existing project alpha-server-discovery.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ServerDiscoveryStarter references non-existing project alpha-server-discovery.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:919)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-12-21 17:01:09.845
+!MESSAGE Launch configuration ServerDiscoveryStarter references non-existing project alpha-server-discovery.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:01:09.849
+!MESSAGE Launch configuration ServerDiscoveryStarter references non-existing project alpha-server-discovery.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ServerDiscoveryStarter references non-existing project alpha-server-discovery.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:919)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-12-21 17:01:09.849
+!MESSAGE Launch configuration ServerDiscoveryStarter references non-existing project alpha-server-discovery.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:03:09.861
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:04:06.418
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:04:06.427
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:04:29.279
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:04:32.683
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:04:49.859
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:04:55.205
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:04:55.209
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2017-12-21 17:05:05.747
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.alpha.self.diagnosis.AlphaApplication]; nested exception is java.io.IOException: Could not find com.alpha.commons.core.dao.impl$BaseDao
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:328)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: Could not find com.alpha.commons.core.dao.impl$BaseDao
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:50)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:620)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getSuperClass(ConfigurationClassParser.java:800)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:313)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:231)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:190)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:271)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:231)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 14 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2017-12-21 17:05:05.749
+!MESSAGE Internal Error
+!STACK 0
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.alpha.self.diagnosis.AlphaApplication]; nested exception is java.io.IOException: Could not find com.alpha.commons.core.dao.impl$BaseDao
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:328)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: Could not find com.alpha.commons.core.dao.impl$BaseDao
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:50)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:620)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getSuperClass(ConfigurationClassParser.java:800)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:313)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:231)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:190)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:271)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:231)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 14 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:05:12.107
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:05:21.296
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:05:38.827
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:05:51.861
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:05:54.433
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:05:54.440
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:06:13.715
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:06:13.725
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:06:26.433
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.springframework.ide.eclipse.boot 4 0 2017-12-21 17:07:53.416
+!MESSAGE com.alpha.server.discovery [in src/main/java [in pfds-service-discovery]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [com.alpha.server.discovery [in src/main/java [in pfds-service-discovery]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:505)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1176)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:271)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:923)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:608)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:130)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:200)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:1)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator$ValidationVisitor.visit(AbstractValidator.java:280)
+	at org.springframework.ide.eclipse.core.model.AbstractModelElement.accept(AbstractModelElement.java:131)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:104)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$7.execute(SpringProjectContributionManager.java:260)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$9.run(SpringProjectContributionManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.execute(SpringProjectContributionManager.java:294)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.runValidator(SpringProjectContributionManager.java:257)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.build(SpringProjectContributionManager.java:131)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2017-12-21 17:07:53.416
+!MESSAGE com.alpha.server.discovery [in src/main/java [in pfds-service-discovery]] does not exist
+
+!ENTRY org.springframework.ide.eclipse.boot 4 0 2017-12-21 17:08:14.172
+!MESSAGE com.alpha.server.discoverer [in src/test/java [in pfds-service-discovery]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [com.alpha.server.discoverer [in src/test/java [in pfds-service-discovery]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:505)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1176)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:271)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:923)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:608)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:130)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:200)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:1)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator$ValidationVisitor.visit(AbstractValidator.java:280)
+	at org.springframework.ide.eclipse.core.model.AbstractModelElement.accept(AbstractModelElement.java:131)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:104)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$7.execute(SpringProjectContributionManager.java:260)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$9.run(SpringProjectContributionManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.execute(SpringProjectContributionManager.java:294)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.runValidator(SpringProjectContributionManager.java:257)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.build(SpringProjectContributionManager.java:131)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2017-12-21 17:08:14.172
+!MESSAGE com.alpha.server.discoverer [in src/test/java [in pfds-service-discovery]] does not exist
+
+!ENTRY org.springframework.ide.eclipse.boot 4 0 2017-12-21 17:08:39.526
+!MESSAGE ServerDiscoveryStarter.java [in com.iebm.pfds.service.discovery [in src/main/java [in pfds-service-discovery]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [ServerDiscoveryStarter.java [in com.iebm.pfds.service.discovery [in src/main/java [in pfds-service-discovery]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:271)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:923)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:608)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:130)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:200)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:1)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator$ValidationVisitor.visit(AbstractValidator.java:280)
+	at org.springframework.ide.eclipse.core.model.AbstractModelElement.accept(AbstractModelElement.java:131)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:104)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$7.execute(SpringProjectContributionManager.java:260)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$9.run(SpringProjectContributionManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.execute(SpringProjectContributionManager.java:294)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.runValidator(SpringProjectContributionManager.java:257)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.build(SpringProjectContributionManager.java:131)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2017-12-21 17:08:39.526
+!MESSAGE ServerDiscoveryStarter.java [in com.iebm.pfds.service.discovery [in src/main/java [in pfds-service-discovery]]] does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:09:38.240
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:09:39.459
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:09:39.462
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:09:47.872
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:18.887
+!MESSAGE The POM for com.alpha:pfds-commons-config:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:19.075
+!MESSAGE The POM for com.alpha:pfds-commons-config:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:21.728
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:21.730
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:33.243
+!MESSAGE The POM for com.iebm.pfds:pfds-commons-config:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:33.249
+!MESSAGE The POM for com.iebm.pfds:alpha-commons:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:33.594
+!MESSAGE The POM for com.iebm.pfds:pfds-commons-config:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:33.600
+!MESSAGE The POM for com.iebm.pfds:alpha-commons:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:33.758
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:33.760
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:41.899
+!MESSAGE The POM for com.iebm.pfds:pfds-commons-config:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:41.905
+!MESSAGE The POM for com.iebm.pfds:pfds-commons:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:42.464
+!MESSAGE The POM for com.iebm.pfds:pfds-commons-config:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:42.475
+!MESSAGE The POM for com.iebm.pfds:pfds-commons:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:42.604
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:10:42.606
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:11:46.090
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:11:49.289
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:12:02.846
+!MESSAGE The POM for com.iebm.pfds:pfds-commons:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:12:04.605
+!MESSAGE The POM for com.iebm.pfds:pfds-commons:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:12:04.954
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:12:04.955
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:12:47.697
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:12:51.962
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:13:05.107
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:13:05.116
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:14:16.572
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openPomEditor(OpenPomAction.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openEditor(OpenPomAction.java:218)
+	at org.eclipse.m2e.editor.xml.PomHyperlinkDetector$6$1.run(PomHyperlinkDetector.java:616)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-21 17:14:16.573
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-21 17:14:16.573
+!MESSAGE Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:14:19.629
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openPomEditor(OpenPomAction.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openEditor(OpenPomAction.java:218)
+	at org.eclipse.m2e.editor.xml.PomHyperlinkDetector$6$1.run(PomHyperlinkDetector.java:616)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-21 17:14:19.629
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-21 17:14:19.629
+!MESSAGE Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:14:42.788
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openPomEditor(OpenPomAction.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openEditor(OpenPomAction.java:218)
+	at org.eclipse.m2e.editor.xml.PomHyperlinkDetector$6$1.run(PomHyperlinkDetector.java:616)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-21 17:14:42.789
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-21 17:14:42.789
+!MESSAGE Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:16:02.638
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:16:12.295
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:16:24.503
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openPomEditor(OpenPomAction.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openEditor(OpenPomAction.java:218)
+	at org.eclipse.m2e.editor.xml.PomHyperlinkDetector$6$1.run(PomHyperlinkDetector.java:616)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-21 17:16:24.503
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-21 17:16:24.503
+!MESSAGE Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:16:25.022
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:16:30.924
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:16:30.936
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:16:57.326
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openPomEditor(OpenPomAction.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openEditor(OpenPomAction.java:218)
+	at org.eclipse.m2e.editor.xml.PomHyperlinkDetector$6$1.run(PomHyperlinkDetector.java:616)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-21 17:16:57.326
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-21 17:16:57.326
+!MESSAGE Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:17:25.236
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openPomEditor(OpenPomAction.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openEditor(OpenPomAction.java:218)
+	at org.eclipse.m2e.editor.xml.PomHyperlinkDetector$6$1.run(PomHyperlinkDetector.java:616)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-21 17:17:25.236
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-21 17:17:25.236
+!MESSAGE Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SESSION 2017-12-21 17:19:18.697 -----------------------------------------------
+eclipse.buildId=3.7.2.201511261048-RELEASE-e45
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.m2e.wtp.jpa 4 0 2017-12-21 17:19:22.570
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.m2e.wtp.jpa [612]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.core; bundle-version="3.3.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:12.758
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\com.collabnet.subversion.merge.feature_3.0.13.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:12.810
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\net.java.dev.jna_3.4.0.t20120117_1605.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:12.825
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.feature_1.8.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:12.839
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.javahl.feature_1.7.10.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:12.847
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.svnkit.feature_1.7.9.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:12.871
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse.graph.feature_1.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:12.874
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:12.883
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse_1.8.22.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:12.893
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tmatesoft.svnkit_1.7.9.r9659_v20130411_2103.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:16.891
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\com.collabnet.subversion.merge.feature_3.0.13.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:16.893
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\net.java.dev.jna_3.4.0.t20120117_1605.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:16.899
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.feature_1.8.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:16.902
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.javahl.feature_1.7.10.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:16.904
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.svnkit.feature_1.7.9.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:16.906
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse.graph.feature_1.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:16.909
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:16.910
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse_1.8.22.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:20:16.913
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tmatesoft.svnkit_1.7.9.r9659_v20130411_2103.jar.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-21 17:20:26.055
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-12-21 17:20:35.264
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-12-21 17:20:35.265
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ea6687b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5fdd9b96,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:20:46.510
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openPomEditor(OpenPomAction.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openEditor(OpenPomAction.java:218)
+	at org.eclipse.m2e.editor.xml.PomHyperlinkDetector$6$1.run(PomHyperlinkDetector.java:616)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-21 17:20:46.512
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-21 17:20:46.517
+!MESSAGE Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:21:02.361
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openPomEditor(OpenPomAction.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openEditor(OpenPomAction.java:218)
+	at org.eclipse.m2e.editor.xml.PomHyperlinkDetector$6$1.run(PomHyperlinkDetector.java:616)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-21 17:21:02.361
+!MESSAGE Could not resolve artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-21 17:21:02.361
+!MESSAGE Missing com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:23:19.911
+!MESSAGE The POM for com.iebm:pfds-commons-config:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:23:19.918
+!MESSAGE The POM for com.iebm:pfds-commons:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:23:20.406
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:23:20.415
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:23:28.483
+!MESSAGE failed to load maven project for org.eclipse.ui.part.FileEditorInput(/pfds-commons-config/pom.xml)
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:804)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:999)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:1)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4724)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3522)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2315)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2193)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3932)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4721)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:997)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:242)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:729)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1050)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: 2 problems were encountered while building the effective model for com.iebm.pfds:pfds-commons-config:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.iebm.pfds:pfds-commons-config:[unknown-version] (F:\iebm\workspace\ssm\trunk\pfds\pfds-commons-config\pom.xml) points at com.iebm:pfds instead of com.iebm.pfds:pfds, please verify your project structure @ line 10, column 13
+[FATAL] Non-resolvable parent POM for com.iebm.pfds:pfds-commons-config:[unknown-version]: Could not find artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 10, column 13
+ for project com.iebm.pfds:pfds-commons-config:[unknown-version] at F:\iebm\workspace\ssm\trunk\pfds\pfds-commons-config\pom.xml
+org.apache.maven.project.ProjectBuildingException: 2 problems were encountered while building the effective model for com.iebm.pfds:pfds-commons-config:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.iebm.pfds:pfds-commons-config:[unknown-version] (F:\iebm\workspace\ssm\trunk\pfds\pfds-commons-config\pom.xml) points at com.iebm:pfds instead of com.iebm.pfds:pfds, please verify your project structure @ line 10, column 13
+[FATAL] Non-resolvable parent POM for com.iebm.pfds:pfds-commons-config:[unknown-version]: Could not find artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 10, column 13
+ for project com.iebm.pfds:pfds-commons-config:[unknown-version] at F:\iebm\workspace\ssm\trunk\pfds\pfds-commons-config\pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:168)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:815)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:956)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:794)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:999)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:1)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4724)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3522)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2315)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2193)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3932)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4721)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:997)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:242)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:729)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1050)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.building.ModelBuildingException: 2 problems were encountered while building the effective model for com.iebm.pfds:pfds-commons-config:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.iebm.pfds:pfds-commons-config:[unknown-version] (F:\iebm\workspace\ssm\trunk\pfds\pfds-commons-config\pom.xml) points at com.iebm:pfds instead of com.iebm.pfds:pfds, please verify your project structure @ line 10, column 13
+[FATAL] Non-resolvable parent POM for com.iebm.pfds:pfds-commons-config:[unknown-version]: Could not find artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 10, column 13
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally(DefaultModelBuilder.java:1007)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParent(DefaultModelBuilder.java:796)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:325)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161)
+	... 25 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2017-12-21 17:23:28.484
+!MESSAGE Could not read maven project
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2017-12-21 17:23:28.484
+!MESSAGE 2 problems were encountered while building the effective model for com.iebm.pfds:pfds-commons-config:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.iebm.pfds:pfds-commons-config:[unknown-version] (F:\iebm\workspace\ssm\trunk\pfds\pfds-commons-config\pom.xml) points at com.iebm:pfds instead of com.iebm.pfds:pfds, please verify your project structure @ line 10, column 13
+[FATAL] Non-resolvable parent POM for com.iebm.pfds:pfds-commons-config:[unknown-version]: Could not find artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 10, column 13
+ for project com.iebm.pfds:pfds-commons-config:[unknown-version] at F:\iebm\workspace\ssm\trunk\pfds\pfds-commons-config\pom.xml
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: 2 problems were encountered while building the effective model for com.iebm.pfds:pfds-commons-config:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.iebm.pfds:pfds-commons-config:[unknown-version] (F:\iebm\workspace\ssm\trunk\pfds\pfds-commons-config\pom.xml) points at com.iebm:pfds instead of com.iebm.pfds:pfds, please verify your project structure @ line 10, column 13
+[FATAL] Non-resolvable parent POM for com.iebm.pfds:pfds-commons-config:[unknown-version]: Could not find artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 10, column 13
+ for project com.iebm.pfds:pfds-commons-config:[unknown-version] at F:\iebm\workspace\ssm\trunk\pfds\pfds-commons-config\pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:168)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:815)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:956)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:794)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:999)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:1)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4724)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3522)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2315)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2193)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3932)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4721)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:997)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:242)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:729)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1050)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.building.ModelBuildingException: 2 problems were encountered while building the effective model for com.iebm.pfds:pfds-commons-config:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.iebm.pfds:pfds-commons-config:[unknown-version] (F:\iebm\workspace\ssm\trunk\pfds\pfds-commons-config\pom.xml) points at com.iebm:pfds instead of com.iebm.pfds:pfds, please verify your project structure @ line 10, column 13
+[FATAL] Non-resolvable parent POM for com.iebm.pfds:pfds-commons-config:[unknown-version]: Could not find artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 10, column 13
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally(DefaultModelBuilder.java:1007)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParent(DefaultModelBuilder.java:796)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:325)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161)
+	... 25 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:23:51.121
+!MESSAGE The POM for com.iebm:pfds-commons:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:23:53.006
+!MESSAGE The POM for com.iebm:pfds-commons:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:23:53.577
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:23:53.582
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:23:54.271
+!MESSAGE failed to load maven project for org.eclipse.ui.part.FileEditorInput(/pfds-commons/pom.xml)
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:804)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:999)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:1)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4724)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3522)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2315)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2193)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3932)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4721)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:997)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:242)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:729)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1050)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: 2 problems were encountered while building the effective model for com.iebm.pfds:pfds-commons:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.iebm.pfds:pfds-commons:[unknown-version] (F:\iebm\workspace\ssm\trunk\pfds\pfds-commons\pom.xml) points at com.iebm:pfds instead of com.iebm.pfds:pfds, please verify your project structure @ line 11, column 13
+[FATAL] Non-resolvable parent POM for com.iebm.pfds:pfds-commons:[unknown-version]: Could not find artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 11, column 13
+ for project com.iebm.pfds:pfds-commons:[unknown-version] at F:\iebm\workspace\ssm\trunk\pfds\pfds-commons\pom.xml
+org.apache.maven.project.ProjectBuildingException: 2 problems were encountered while building the effective model for com.iebm.pfds:pfds-commons:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.iebm.pfds:pfds-commons:[unknown-version] (F:\iebm\workspace\ssm\trunk\pfds\pfds-commons\pom.xml) points at com.iebm:pfds instead of com.iebm.pfds:pfds, please verify your project structure @ line 11, column 13
+[FATAL] Non-resolvable parent POM for com.iebm.pfds:pfds-commons:[unknown-version]: Could not find artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 11, column 13
+ for project com.iebm.pfds:pfds-commons:[unknown-version] at F:\iebm\workspace\ssm\trunk\pfds\pfds-commons\pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:168)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:815)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:956)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:794)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:999)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:1)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4724)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3522)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2315)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2193)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3932)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4721)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:997)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:242)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:729)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1050)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.building.ModelBuildingException: 2 problems were encountered while building the effective model for com.iebm.pfds:pfds-commons:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.iebm.pfds:pfds-commons:[unknown-version] (F:\iebm\workspace\ssm\trunk\pfds\pfds-commons\pom.xml) points at com.iebm:pfds instead of com.iebm.pfds:pfds, please verify your project structure @ line 11, column 13
+[FATAL] Non-resolvable parent POM for com.iebm.pfds:pfds-commons:[unknown-version]: Could not find artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 11, column 13
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally(DefaultModelBuilder.java:1007)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParent(DefaultModelBuilder.java:796)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:325)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161)
+	... 25 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2017-12-21 17:23:54.272
+!MESSAGE Could not read maven project
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2017-12-21 17:23:54.272
+!MESSAGE 2 problems were encountered while building the effective model for com.iebm.pfds:pfds-commons:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.iebm.pfds:pfds-commons:[unknown-version] (F:\iebm\workspace\ssm\trunk\pfds\pfds-commons\pom.xml) points at com.iebm:pfds instead of com.iebm.pfds:pfds, please verify your project structure @ line 11, column 13
+[FATAL] Non-resolvable parent POM for com.iebm.pfds:pfds-commons:[unknown-version]: Could not find artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 11, column 13
+ for project com.iebm.pfds:pfds-commons:[unknown-version] at F:\iebm\workspace\ssm\trunk\pfds\pfds-commons\pom.xml
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: 2 problems were encountered while building the effective model for com.iebm.pfds:pfds-commons:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.iebm.pfds:pfds-commons:[unknown-version] (F:\iebm\workspace\ssm\trunk\pfds\pfds-commons\pom.xml) points at com.iebm:pfds instead of com.iebm.pfds:pfds, please verify your project structure @ line 11, column 13
+[FATAL] Non-resolvable parent POM for com.iebm.pfds:pfds-commons:[unknown-version]: Could not find artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 11, column 13
+ for project com.iebm.pfds:pfds-commons:[unknown-version] at F:\iebm\workspace\ssm\trunk\pfds\pfds-commons\pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:168)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:815)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:956)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:794)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:999)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:1)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4724)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3522)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2315)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2193)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3932)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4721)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:997)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:242)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:729)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1050)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.building.ModelBuildingException: 2 problems were encountered while building the effective model for com.iebm.pfds:pfds-commons:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.iebm.pfds:pfds-commons:[unknown-version] (F:\iebm\workspace\ssm\trunk\pfds\pfds-commons\pom.xml) points at com.iebm:pfds instead of com.iebm.pfds:pfds, please verify your project structure @ line 11, column 13
+[FATAL] Non-resolvable parent POM for com.iebm.pfds:pfds-commons:[unknown-version]: Could not find artifact com.iebm.pfds:pfds:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 11, column 13
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally(DefaultModelBuilder.java:1007)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParent(DefaultModelBuilder.java:796)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:325)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161)
+	... 25 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:24:13.113
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:24:13.129
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:24:30.838
+!MESSAGE Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:919)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-12-21 17:24:30.839
+!MESSAGE Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:24:30.840
+!MESSAGE Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:919)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-12-21 17:24:30.840
+!MESSAGE Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:24:30.844
+!MESSAGE Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:919)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-12-21 17:24:30.844
+!MESSAGE Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:29:54.917
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:30:03.391
+!MESSAGE The POM for com.alpha:alpha-service-treatscheme:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:30:13.236
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-21 17:30:13.250
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:30:17.921
+!MESSAGE Could not resolve artifact com.iebm:pfds:pom:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.iebm:pfds:pom:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openPomEditor(OpenPomAction.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openEditor(OpenPomAction.java:218)
+	at org.eclipse.m2e.editor.xml.PomHyperlinkDetector$6$1.run(PomHyperlinkDetector.java:616)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing com.iebm:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-21 17:30:17.922
+!MESSAGE Could not resolve artifact com.iebm:pfds:pom:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2017-12-21 17:30:17.922
+!MESSAGE Missing com.iebm:pfds:pom:0.0.1-SNAPSHOT
+!SESSION 2017-12-21 17:40:15.950 -----------------------------------------------
+eclipse.buildId=3.7.2.201511261048-RELEASE-e45
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.m2e.wtp.jpa 4 0 2017-12-21 17:40:21.539
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.m2e.wtp.jpa [612]
+  Unresolved requirement: Require-Bundle: org.eclipse.jpt.jpa.core; bundle-version="3.3.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:06.962
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\com.collabnet.subversion.merge.feature_3.0.13.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:06.975
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\net.java.dev.jna_3.4.0.t20120117_1605.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:06.981
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.feature_1.8.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:06.984
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.javahl.feature_1.7.10.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:06.987
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.svnkit.feature_1.7.9.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:06.989
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse.graph.feature_1.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:06.992
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:06.997
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse_1.8.22.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:07.000
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tmatesoft.svnkit_1.7.9.r9659_v20130411_2103.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:10.695
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\com.collabnet.subversion.merge.feature_3.0.13.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:10.697
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\net.java.dev.jna_3.4.0.t20120117_1605.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:10.701
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.feature_1.8.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:10.703
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.javahl.feature_1.7.10.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:10.704
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.clientadapter.svnkit.feature_1.7.9.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:10.707
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse.graph.feature_1.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:10.709
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:10.711
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tigris.subversion.subclipse_1.8.22.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2017-12-21 17:41:10.713
+!MESSAGE Unable to acquire PluginConverter service during generation for: F:\spring-tool-suite-3.7.2\sts-bundle\sts-3.7.2.RELEASE\features\org.tmatesoft.svnkit_1.7.9.r9659_v20130411_2103.jar.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-21 17:41:14.308
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:41:45.276
+!MESSAGE Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:919)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-12-21 17:41:45.277
+!MESSAGE Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:41:45.280
+!MESSAGE Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:919)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-12-21 17:41:45.280
+!MESSAGE Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-21 17:41:45.335
+!MESSAGE Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:919)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2017-12-21 17:41:45.336
+!MESSAGE Launch configuration ServiceDiscoveryStarter references non-existing project pfds-service-discovery.
