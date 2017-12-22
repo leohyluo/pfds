@@ -19,11 +19,12 @@
             <artifactId>pfds-commons</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-        <!-- druid -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-        </dependency>
+	    <!-- druid -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.0.26</version>
+		</dependency>
         <!-- mysql -->
         <dependency>
             <groupId>mysql</groupId>

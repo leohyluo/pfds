@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: pfds-api-gateway
+  profiles:
+    active: core
+server:
+  port: 19063
+#配置zuul
+zuul:
+  routes:
+    abc: 
+      path: /user-api/**
+      service-id: pfds-user

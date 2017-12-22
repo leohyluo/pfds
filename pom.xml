@@ -14,8 +14,10 @@
         <module>pfds-commons</module>
         <module>pfds-commons-config</module>
         <module>pfds-commons-core</module>       
-        <!-- 服务注册发现 -->
+        <!-- 服务注册中心 -->
         <module>pfds-service-discovery</module>
+        <!-- 服务网关 -->
+        <module>pfds-api-gateway</module>
         <!-- 用户模块 -->                     
         <module>pfds-user</module>  
     </modules>
@@ -62,12 +64,7 @@
 	    	<groupId>org.springframework.boot</groupId>
 	    	<artifactId>spring-boot-starter-web</artifactId>
 	    </dependency>
-	    
-	    <dependency>
-	    	<groupId>org.springframework.cloud</groupId>
-	    	<artifactId>spring-cloud-starter-eureka</artifactId>
-	    </dependency>
-	    
+	    	    
 	    <dependency>
 	  		<groupId>org.springframework.cloud</groupId>
 	  		<artifactId>spring-cloud-starter-feign</artifactId>
@@ -100,12 +97,7 @@
 				<scope>import</scope>
 			</dependency>
 			
-			<!-- druid -->
-			<dependency>
-				<groupId>com.alibaba</groupId>
-				<artifactId>druid</artifactId>
-				<version>1.0.26</version>
-			</dependency>
+			
 		</dependencies>
 		
 	</dependencyManagement>
