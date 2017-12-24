@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: core
+  application:
+    name: pfds-drug
+server:
+  port: 19063
+logging:
+  config: classpath:logback.xml    

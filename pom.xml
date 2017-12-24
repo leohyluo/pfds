@@ -18,8 +18,12 @@
         <module>pfds-service-discovery</module>
         <!-- 服务网关 -->
         <module>pfds-api-gateway</module>
+        <!-- 服务通信组件 -->
+        <module>pfds-service-rpc</module>
         <!-- 用户模块 -->                     
-        <module>pfds-user</module>  
+        <module>pfds-user</module>
+        <!-- 药品模块 -->
+        <module>pfds-drug</module>  
     </modules>
     <distributionManagement>
         <repository>
