@@ -1,0 +1,13 @@
+2017-12-26 13:01:41,556 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-26 13:06:41,564 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-26 13:11:41,567 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-26 13:16:41,570 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-26 13:21:41,574 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-26 13:29:02,380 INFO [org.springframework.context.support.AbstractApplicationContext:583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@443118b0: startup date [Tue Dec 26 13:29:02 CST 2017]; root of context hierarchy
+2017-12-26 13:29:02,834 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-26 13:29:02,991 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$35489068] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-26 13:29:02,995 INFO [org.hibernate.validator.internal.util.Version:30] HV000001: Hibernate Validator 5.3.5.Final
+2017-12-26 13:45:17,846 INFO [org.springframework.context.support.AbstractApplicationContext:583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3f91b517: startup date [Tue Dec 26 13:45:17 CST 2017]; root of context hierarchy
+2017-12-26 13:45:18,386 INFO [org.hibernate.validator.internal.util.Version:30] HV000001: Hibernate Validator 5.3.5.Final
+2017-12-26 13:45:18,412 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-26 13:45:18,655 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cb43c71e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)

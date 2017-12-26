@@ -22,7 +22,7 @@
 		</rollingPolicy>
 		<encoder>
 			<pattern>%date %level [%class:%line] %msg%n</pattern>
-		</encoder>
+		</encoder>		
 	</appender>
 
 	<root level="INFO">

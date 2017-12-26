@@ -13,7 +13,8 @@ public class DrugTestController {
 	private Logger logger = LoggerFactory.getLogger(getClass());
 
 	@PostMapping("/get")
-	public String get(String id) {
+	public String get(String id) throws InterruptedException {
+		Thread.sleep(1500);
 		logger.info("get drug from pfds-drug by id " + id);
 		return "get drug from pfds-drug";
 	}

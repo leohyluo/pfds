@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: core
+    active: dev
   application:
     name: pfds-drug
 server:

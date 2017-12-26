@@ -1,14 +1,15 @@
 spring:
   profiles:
-    active: core
+    active: dev
   application:
     name: pfds-user
 server:
   port: 19061
 logging:
-  config: classpath:logback.xml
-#设置线程池大小，默认10  
+  config: classpath:logback-pfds-user.xml
+#跳闸的最小请求数量
 hystrix: 
-  threadpool: 
+  command: 
     default: 
-      coreSize: 20          
+      circuitBreaker: 
+        requestVolumeThreshold: 10

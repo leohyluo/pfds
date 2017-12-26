@@ -40,4 +40,10 @@ public class UserController {
 		logger.info("drugFeign return {}", result);
 		return WebUtils.buildSuccessResponseMessage(result);
 	}
+	
+	@GetMapping("/test")
+	public ResponseMessage test() {
+		userService.testSave();
+		return WebUtils.buildSuccessResponseMessage();
+	}
 }

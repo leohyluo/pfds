@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pfds-api-gateway" />
+        <module name="pfds-commons" />
+        <module name="pfds-commons-config" />
+        <module name="pfds-commons-core" />
+        <module name="pfds-drug" />
+        <module name="pfds-service-discovery" />
+        <module name="pfds-service-rpc" />
+        <module name="pfds-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pfds" target="1.8" />
+      <module name="pfds-api-gateway" target="1.8" />
+      <module name="pfds-commons" target="1.8" />
+      <module name="pfds-commons-config" target="1.8" />
+      <module name="pfds-commons-core" target="1.8" />
+      <module name="pfds-drug" target="1.8" />
+      <module name="pfds-service-discovery" target="1.8" />
+      <module name="pfds-service-rpc" target="1.8" />
+      <module name="pfds-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

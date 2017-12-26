@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pfds-api-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pfds-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pfds-commons-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pfds-commons-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pfds-drug" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pfds-service-discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pfds-service-rpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pfds-user" charset="UTF-8" />
+  </component>
+</project>

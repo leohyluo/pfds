@@ -33,11 +33,5 @@
 	  		<groupId>org.springframework.cloud</groupId>
 	  		<artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
 	  	</dependency>
-	        	
-        <!-- <dependency>
-            <groupId>com.iebm</groupId>
-            <artifactId>pfds-commons-core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency> -->
     </dependencies>
 </project>
