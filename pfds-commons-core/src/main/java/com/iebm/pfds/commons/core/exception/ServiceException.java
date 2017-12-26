@@ -9,7 +9,9 @@ import com.iebm.pfds.commons.core.web.ResponseStatus;
  */
 public class ServiceException extends RuntimeException {
 
-    //错误码
+	private static final long serialVersionUID = -1509136890968108855L;
+
+	//错误码
     private ResponseStatus resultEnum;
 
     //异常内容

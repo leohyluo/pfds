@@ -13,7 +13,7 @@ public class DrugFeignFallbackFactory implements FallbackFactory<DrugFeign> {
 
 	@Override
 	public DrugFeign create(Throwable e) {
-		logger.warn("error on invoke pfds-drug cause by " + e.getStackTrace());
+		logger.warn("error on invoke pfds-drug cause by " + e.getMessage());
 		return new DrugFeign() {
 			@Override
 			public String get(String id) {

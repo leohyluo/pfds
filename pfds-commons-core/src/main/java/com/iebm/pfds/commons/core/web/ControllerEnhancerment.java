@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 import com.iebm.pfds.commons.core.exception.CommonException;
 
-@ControllerAdvice(basePackages={"com.alpha.user.controller"})
+@ControllerAdvice
 public class ControllerEnhancerment {
 
 	private Logger logger = LoggerFactory.getLogger(getClass());

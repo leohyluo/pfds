@@ -6,4 +6,9 @@ spring:
 server:
   port: 19061
 logging:
-  config: classpath:logback.xml    
+  config: classpath:logback.xml
+#设置线程池大小，默认10  
+hystrix: 
+  threadpool: 
+    default: 
+      coreSize: 20          

@@ -1,0 +1,550 @@
+2017-12-25 14:01:56,951 INFO [org.springframework.context.support.AbstractApplicationContext:583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@28d1bb21: startup date [Mon Dec 25 14:01:56 CST 2017]; root of context hierarchy
+2017-12-25 14:01:57,471 INFO [org.hibernate.validator.internal.util.Version:30] HV000001: Hibernate Validator 5.3.5.Final
+2017-12-25 14:01:57,704 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-25 14:01:57,845 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8515b10c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:01:59,033 INFO [org.springframework.boot.SpringApplication:597] The following profiles are active: core
+2017-12-25 14:01:59,114 INFO [org.springframework.context.support.AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65f39a25: startup date [Mon Dec 25 14:01:59 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@28d1bb21
+2017-12-25 14:02:02,202 WARN [org.springframework.context.annotation.AutoProxyRegistrar:82] AutoProxyRegistrar was imported but no annotations were found having both 'mode' and 'proxyTargetClass' attributes of type AdviceMode and boolean respectively. This means that auto proxy creator registration and configuration may not have occurred as intended, and components may not be proxied as expected. Check to ensure that AutoProxyRegistrar has been @Import'ed on the same class where these annotations are declared; otherwise remove the import of AutoProxyRegistrar altogether.
+2017-12-25 14:02:03,063 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory:828] Overriding bean definition for bean 'retryTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$RetryAutoConfiguration; factoryMethodName=retryTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/client/loadbalancer/LoadBalancerAutoConfiguration$RetryAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.feign.ribbon.FeignRibbonClientAutoConfiguration; factoryMethodName=retryTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/feign/ribbon/FeignRibbonClientAutoConfiguration.class]]
+2017-12-25 14:02:03,438 INFO [org.springframework.cloud.context.scope.GenericScope:263] BeanFactory id=3e253dc3-b4e8-36da-b2cc-539b6a860d67
+2017-12-25 14:02:03,548 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-25 14:02:04,016 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$68fbae0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:02:04,437 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$b20de42d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:02:04,538 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$a681a8d1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:02:04,611 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:02:04,666 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:02:04,680 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration$$EnhancerBySpringCGLIB$$481d1bb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:02:04,725 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'cacheManager' of type [org.springframework.cache.concurrent.ConcurrentMapCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:02:04,744 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:02:04,803 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8515b10c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:02:06,468 INFO [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 19061 (http)
+2017-12-25 14:02:06,495 INFO [org.apache.juli.logging.DirectJDKLog:179] Starting service [Tomcat]
+2017-12-25 14:02:06,497 INFO [org.apache.juli.logging.DirectJDKLog:179] Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-12-25 14:02:06,798 INFO [org.apache.juli.logging.DirectJDKLog:179] Initializing Spring embedded WebApplicationContext
+2017-12-25 14:02:06,799 INFO [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 7685 ms
+2017-12-25 14:02:08,411 INFO [org.springframework.boot.web.servlet.ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-25 14:02:08,415 INFO [org.springframework.boot.web.servlet.ServletRegistrationBean:190] Mapping servlet: 'com.iebm.pfds.commons.config.servlet.DruidStatViewServlet' to [/druid/*]
+2017-12-25 14:02:08,429 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-25 14:02:08,430 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-25 14:02:08,430 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-25 14:02:08,431 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-25 14:02:08,431 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:271] Mapping filter: 'com.iebm.pfds.commons.config.filter.CorsFilter' to urls: [/*]
+2017-12-25 14:02:08,431 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:271] Mapping filter: 'druidWebStatFilter' to urls: [/*]
+2017-12-25 14:02:08,938 INFO [com.iebm.pfds.commons.config.DruidConfiguration$Druid:44] DruidConfiguration init completed................
+2017-12-25 14:02:10,860 INFO [com.alibaba.druid.pool.DruidDataSource:715] {dataSource-1} inited
+2017-12-25 14:02:11,179 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:349] Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-25 14:02:11,235 INFO [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-25 14:02:11,642 INFO [org.hibernate.Version:37] HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-25 14:02:11,650 INFO [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+2017-12-25 14:02:11,656 INFO [org.hibernate.cfg.Environment:317] HHH000021: Bytecode provider name : javassist
+2017-12-25 14:02:11,880 INFO [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-25 14:02:12,423 INFO [org.hibernate.dialect.Dialect:156] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-25 14:02:13,793 INFO [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:379] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-25 14:02:15,911 INFO [org.springframework.context.support.AbstractApplicationContext:583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3744a3ea: startup date [Mon Dec 25 14:02:15 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65f39a25
+2017-12-25 14:02:16,008 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-25 14:02:17,555 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by null
+2017-12-25 14:02:22,063 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65f39a25: startup date [Mon Dec 25 14:01:59 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@28d1bb21
+2017-12-25 14:02:22,666 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/user/drug/get],methods=[GET]}" onto public com.iebm.pfds.commons.core.web.ResponseMessage com.iebm.pfds.user.controller.UserController.getDrug()
+2017-12-25 14:02:22,671 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/user/{userId}],methods=[GET]}" onto public com.iebm.pfds.commons.core.web.ResponseMessage com.iebm.pfds.user.controller.UserController.getByUserId(java.lang.Long)
+2017-12-25 14:02:22,676 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-25 14:02:22,677 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-25 14:02:23,296 INFO [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 14:02:23,297 INFO [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 14:02:23,413 INFO [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:273] Detected @ExceptionHandler methods in controllerEnhancerment
+2017-12-25 14:02:23,712 INFO [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 14:02:29,338 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+2017-12-25 14:02:30,086 WARN [com.netflix.config.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+2017-12-25 14:02:30,087 INFO [com.netflix.config.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-12-25 14:02:30,107 WARN [com.netflix.config.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+2017-12-25 14:02:30,111 INFO [com.netflix.config.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-12-25 14:02:30,976 INFO [org.springframework.jmx.export.MBeanExporter:431] Registering beans for JMX exposure on startup
+2017-12-25 14:02:30,979 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-12-25 14:02:31,050 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-12-25 14:02:31,052 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-12-25 14:02:31,055 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-12-25 14:02:31,068 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-12-25 14:02:31,188 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-12-25 14:02:31,275 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=65f39a25,type=ConfigurationPropertiesRebinder]
+2017-12-25 14:02:31,302 INFO [org.springframework.jmx.export.MBeanExporter:671] Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-12-25 14:02:32,135 INFO [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup:343] Starting beans in phase 0
+2017-12-25 14:02:32,157 INFO [org.springframework.cloud.netflix.eureka.InstanceInfoFactory:70] Setting initial instance status as: STARTING
+2017-12-25 14:02:33,173 INFO [com.netflix.discovery.provider.DiscoveryJerseyProvider:70] Using JSON encoding codec LegacyJacksonJson
+2017-12-25 14:02:33,174 INFO [com.netflix.discovery.provider.DiscoveryJerseyProvider:71] Using JSON decoding codec LegacyJacksonJson
+2017-12-25 14:02:33,514 INFO [com.netflix.discovery.provider.DiscoveryJerseyProvider:80] Using XML encoding codec XStreamXml
+2017-12-25 14:02:33,515 INFO [com.netflix.discovery.provider.DiscoveryJerseyProvider:81] Using XML decoding codec XStreamXml
+2017-12-25 14:02:34,543 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-25 14:02:34,742 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 14:02:34,744 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 14:02:34,745 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 14:02:34,746 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 14:02:34,747 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 14:02:34,747 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: true
+2017-12-25 14:02:34,748 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 14:02:35,028 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 14:02:35,030 INFO [com.netflix.discovery.DiscoveryClient:1261] Starting heartbeat executor: renew interval is: 5
+2017-12-25 14:02:35,035 INFO [com.netflix.discovery.InstanceInfoReplicator:59] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-12-25 14:02:35,041 INFO [com.netflix.discovery.DiscoveryClient:461] Discovery Client initialized at timestamp 1514181755041 with initial instances count: 0
+2017-12-25 14:02:35,363 INFO [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:100] Registering application pfds-user with eureka with status UP
+2017-12-25 14:02:35,366 INFO [com.netflix.discovery.DiscoveryClient$3:1296] Saw local status change event StatusChangeEvent [timestamp=1514181755366, current=UP, previous=STARTING]
+2017-12-25 14:02:35,369 INFO [com.netflix.discovery.DiscoveryClient:812] DiscoveryClient_PFDS-USER/PC-20160606PUVI:pfds-user:19061: registering service...
+2017-12-25 14:02:35,463 INFO [org.apache.juli.logging.DirectJDKLog:179] Initializing ProtocolHandler ["http-nio-19061"]
+2017-12-25 14:02:35,523 INFO [org.apache.juli.logging.DirectJDKLog:179] Starting ProtocolHandler ["http-nio-19061"]
+2017-12-25 14:02:35,551 INFO [org.apache.juli.logging.DirectJDKLog:179] Using a shared selector for servlet write/read
+2017-12-25 14:02:35,620 INFO [com.netflix.discovery.DiscoveryClient:821] DiscoveryClient_PFDS-USER/PC-20160606PUVI:pfds-user:19061 - registration status: 204
+2017-12-25 14:02:35,655 INFO [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 19061 (http)
+2017-12-25 14:02:35,656 INFO [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:168] Updating port to 19061
+2017-12-25 14:02:35,666 INFO [org.springframework.boot.StartupInfoLogger:57] Started UserStarter in 39.831 seconds (JVM running for 41.251)
+2017-12-25 14:02:40,032 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 14:02:40,033 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 14:02:40,034 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 14:02:40,034 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 14:02:40,034 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 14:02:40,035 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 14:02:40,035 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 14:02:40,042 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 14:02:45,050 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 14:02:45,051 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 14:02:45,051 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 14:02:45,052 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 14:02:45,052 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 14:02:45,052 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 14:02:45,052 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 14:02:45,064 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 14:02:50,065 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 14:02:50,065 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 14:02:50,066 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 14:02:50,066 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 14:02:50,066 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 14:02:50,066 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 14:02:50,067 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 14:02:50,070 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 14:02:55,073 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 14:02:55,073 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 14:02:55,074 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 14:02:55,074 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 14:02:55,074 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 14:02:55,074 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 14:02:55,074 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 14:02:55,078 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 14:02:57,053 INFO [org.apache.juli.logging.DirectJDKLog:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-25 14:02:57,053 INFO [org.springframework.web.servlet.FrameworkServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-25 14:02:57,243 INFO [org.springframework.web.servlet.FrameworkServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 189 ms
+2017-12-25 14:03:00,079 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 14:03:00,079 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 14:03:00,079 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 14:03:00,079 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 14:03:00,079 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 14:03:00,080 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 14:03:00,080 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 14:03:00,084 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 14:03:05,085 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 14:03:05,086 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 14:03:05,086 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 14:03:05,086 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 14:03:05,086 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 14:03:05,086 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 14:03:05,087 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 14:03:05,161 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 14:19:21,810 INFO [org.springframework.context.support.AbstractApplicationContext:583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@13b4ffa9: startup date [Mon Dec 25 14:19:21 CST 2017]; root of context hierarchy
+2017-12-25 14:19:22,291 INFO [org.hibernate.validator.internal.util.Version:30] HV000001: Hibernate Validator 5.3.5.Final
+2017-12-25 14:19:22,668 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-25 14:19:22,804 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$984fb5bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:19:24,167 INFO [org.springframework.boot.SpringApplication:597] The following profiles are active: core
+2017-12-25 14:19:24,285 INFO [org.springframework.context.support.AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2b0a3602: startup date [Mon Dec 25 14:19:24 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@13b4ffa9
+2017-12-25 14:19:29,874 WARN [org.springframework.context.annotation.AutoProxyRegistrar:82] AutoProxyRegistrar was imported but no annotations were found having both 'mode' and 'proxyTargetClass' attributes of type AdviceMode and boolean respectively. This means that auto proxy creator registration and configuration may not have occurred as intended, and components may not be proxied as expected. Check to ensure that AutoProxyRegistrar has been @Import'ed on the same class where these annotations are declared; otherwise remove the import of AutoProxyRegistrar altogether.
+2017-12-25 14:19:29,956 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory:828] Overriding bean definition for bean 'hystrixFeature' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.hystrix.HystrixCircuitBreakerConfiguration$HystrixWebConfiguration; factoryMethodName=hystrixFeature; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration$HystrixWebConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.hystrix.HystrixCircuitBreakerConfiguration; factoryMethodName=hystrixFeature; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration.class]]
+2017-12-25 14:19:31,671 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory:828] Overriding bean definition for bean 'retryTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$RetryAutoConfiguration; factoryMethodName=retryTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/client/loadbalancer/LoadBalancerAutoConfiguration$RetryAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.feign.ribbon.FeignRibbonClientAutoConfiguration; factoryMethodName=retryTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/feign/ribbon/FeignRibbonClientAutoConfiguration.class]]
+2017-12-25 14:19:32,366 INFO [org.springframework.cloud.context.scope.GenericScope:263] BeanFactory id=8a17d5e1-9180-353a-90ca-44ab98c74615
+2017-12-25 14:19:32,505 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-25 14:19:33,170 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c35b2bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:19:33,823 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$c547e8dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:19:33,998 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$b9bbad81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:19:34,106 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:19:34,192 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:19:34,231 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.boot.autoconfigure.cache.GuavaCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.GuavaCacheConfiguration$$EnhancerBySpringCGLIB$$1158e61e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:19:34,312 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'cacheManager' of type [org.springframework.cache.guava.GuavaCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:19:34,352 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:19:34,464 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$984fb5bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:19:37,727 INFO [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 19061 (http)
+2017-12-25 14:19:37,762 INFO [org.apache.juli.logging.DirectJDKLog:179] Starting service [Tomcat]
+2017-12-25 14:19:37,765 INFO [org.apache.juli.logging.DirectJDKLog:179] Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-12-25 14:19:38,369 INFO [org.apache.juli.logging.DirectJDKLog:179] Initializing Spring embedded WebApplicationContext
+2017-12-25 14:19:38,370 INFO [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 14085 ms
+2017-12-25 14:19:41,704 INFO [org.springframework.boot.web.servlet.ServletRegistrationBean:190] Mapping servlet: 'proxyStreamServlet' to [/proxy.stream]
+2017-12-25 14:19:41,707 INFO [org.springframework.boot.web.servlet.ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-25 14:19:41,708 INFO [org.springframework.boot.web.servlet.ServletRegistrationBean:190] Mapping servlet: 'com.iebm.pfds.commons.config.servlet.DruidStatViewServlet' to [/druid/*]
+2017-12-25 14:19:41,724 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'metricsFilter' to: [/*]
+2017-12-25 14:19:41,725 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-25 14:19:41,725 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-25 14:19:41,725 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-25 14:19:41,726 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-25 14:19:41,727 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-12-25 14:19:41,727 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:271] Mapping filter: 'com.iebm.pfds.commons.config.filter.CorsFilter' to urls: [/*]
+2017-12-25 14:19:41,728 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:271] Mapping filter: 'druidWebStatFilter' to urls: [/*]
+2017-12-25 14:19:41,729 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-12-25 14:19:42,452 INFO [com.iebm.pfds.commons.config.DruidConfiguration$Druid:44] DruidConfiguration init completed................
+2017-12-25 14:19:45,438 INFO [com.alibaba.druid.pool.DruidDataSource:715] {dataSource-1} inited
+2017-12-25 14:19:45,771 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:349] Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-25 14:19:45,844 INFO [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-25 14:19:46,305 INFO [org.hibernate.Version:37] HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-25 14:19:46,317 INFO [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+2017-12-25 14:19:46,322 INFO [org.hibernate.cfg.Environment:317] HHH000021: Bytecode provider name : javassist
+2017-12-25 14:19:46,642 INFO [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-25 14:19:47,391 INFO [org.hibernate.dialect.Dialect:156] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-25 14:19:48,993 INFO [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:379] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-25 14:19:51,671 INFO [org.springframework.context.support.AbstractApplicationContext:583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6a77013e: startup date [Mon Dec 25 14:19:51 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2b0a3602
+2017-12-25 14:19:51,818 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-25 14:19:54,753 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by null
+2017-12-25 14:19:55,367 INFO [org.springframework.ui.freemarker.SpringTemplateLoader:61] SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2b0a3602: startup date [Mon Dec 25 14:19:24 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@13b4ffa9] and template loader path [classpath:/templates/]
+2017-12-25 14:19:55,372 INFO [org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer:127] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-12-25 14:19:57,516 WARN [com.netflix.config.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+2017-12-25 14:19:57,517 INFO [com.netflix.config.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-12-25 14:19:57,540 INFO [com.netflix.config.DynamicPropertyFactory:281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5d97d1a5
+2017-12-25 14:20:02,380 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2b0a3602: startup date [Mon Dec 25 14:19:24 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@13b4ffa9
+2017-12-25 14:20:03,479 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/user/drug/get],methods=[GET]}" onto public com.iebm.pfds.commons.core.web.ResponseMessage com.iebm.pfds.user.controller.UserController.getDrug()
+2017-12-25 14:20:03,484 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/user/{userId}],methods=[GET]}" onto public com.iebm.pfds.commons.core.web.ResponseMessage com.iebm.pfds.user.controller.UserController.getByUserId(java.lang.Long)
+2017-12-25 14:20:03,487 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hystrix/{path}]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.monitor(java.lang.String,org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+2017-12-25 14:20:03,488 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hystrix]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.home(org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+2017-12-25 14:20:03,493 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-25 14:20:03,494 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-25 14:20:04,261 INFO [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 14:20:04,262 INFO [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 14:20:04,432 INFO [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:273] Detected @ExceptionHandler methods in controllerEnhancerment
+2017-12-25 14:20:04,780 INFO [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 14:20:11,954 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-12-25 14:20:11,960 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2017-12-25 14:20:11,962 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-12-25 14:20:11,965 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/hystrix.stream/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.cloud.netflix.endpoint.ServletWrappingEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-12-25 14:20:11,972 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-12-25 14:20:11,974 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-12-25 14:20:11,975 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-12-25 14:20:11,978 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-12-25 14:20:11,980 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-12-25 14:20:11,982 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-12-25 14:20:11,984 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-12-25 14:20:11,987 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-12-25 14:20:11,990 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2017-12-25 14:20:11,991 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2017-12-25 14:20:11,993 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-12-25 14:20:11,995 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-12-25 14:20:11,997 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-12-25 14:20:11,999 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-12-25 14:20:12,005 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-12-25 14:20:12,008 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-12-25 14:20:12,009 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-12-25 14:20:12,011 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-12-25 14:20:12,013 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-12-25 14:20:12,014 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-12-25 14:20:12,016 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-12-25 14:20:12,017 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-12-25 14:20:16,343 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+2017-12-25 14:20:17,059 WARN [com.netflix.config.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+2017-12-25 14:20:17,060 INFO [com.netflix.config.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-12-25 14:20:17,627 INFO [org.springframework.jmx.export.MBeanExporter:431] Registering beans for JMX exposure on startup
+2017-12-25 14:20:17,633 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-12-25 14:20:17,686 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-12-25 14:20:17,688 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-12-25 14:20:17,694 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-12-25 14:20:17,696 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2017-12-25 14:20:17,698 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2017-12-25 14:20:17,709 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-12-25 14:20:17,778 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2017-12-25 14:20:17,844 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-12-25 14:20:17,943 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2b0a3602,type=ConfigurationPropertiesRebinder]
+2017-12-25 14:20:17,972 INFO [org.springframework.jmx.export.MBeanExporter:671] Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-12-25 14:20:17,976 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2017-12-25 14:20:17,984 INFO [org.springframework.jmx.export.MBeanExporter:431] Registering beans for JMX exposure on startup
+2017-12-25 14:20:19,072 INFO [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup:343] Starting beans in phase 0
+2017-12-25 14:20:19,102 INFO [org.springframework.cloud.netflix.eureka.InstanceInfoFactory:70] Setting initial instance status as: STARTING
+2017-12-25 14:20:20,081 INFO [com.netflix.discovery.provider.DiscoveryJerseyProvider:70] Using JSON encoding codec LegacyJacksonJson
+2017-12-25 14:20:20,083 INFO [com.netflix.discovery.provider.DiscoveryJerseyProvider:71] Using JSON decoding codec LegacyJacksonJson
+2017-12-25 14:20:20,474 INFO [com.netflix.discovery.provider.DiscoveryJerseyProvider:80] Using XML encoding codec XStreamXml
+2017-12-25 14:20:20,476 INFO [com.netflix.discovery.provider.DiscoveryJerseyProvider:81] Using XML decoding codec XStreamXml
+2017-12-25 14:20:21,149 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-25 14:20:21,356 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 14:20:21,357 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 14:20:21,359 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 14:20:21,359 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 14:20:21,360 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 14:20:21,361 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: true
+2017-12-25 14:20:21,364 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 14:20:21,777 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 14:20:21,782 INFO [com.netflix.discovery.DiscoveryClient:1261] Starting heartbeat executor: renew interval is: 5
+2017-12-25 14:20:21,788 INFO [com.netflix.discovery.InstanceInfoReplicator:59] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-12-25 14:20:21,794 INFO [com.netflix.discovery.DiscoveryClient:461] Discovery Client initialized at timestamp 1514182821794 with initial instances count: 0
+2017-12-25 14:20:22,134 INFO [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:100] Registering application pfds-user with eureka with status UP
+2017-12-25 14:20:22,145 INFO [com.netflix.discovery.DiscoveryClient$3:1296] Saw local status change event StatusChangeEvent [timestamp=1514182822145, current=UP, previous=STARTING]
+2017-12-25 14:20:22,153 INFO [com.netflix.discovery.DiscoveryClient:812] DiscoveryClient_PFDS-USER/PC-20160606PUVI:pfds-user:19061: registering service...
+2017-12-25 14:20:22,168 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2017-12-25 14:20:22,228 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2017-12-25 14:20:22,303 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2017-12-25 14:20:22,311 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2017-12-25 14:20:22,326 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2017-12-25 14:20:22,335 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2017-12-25 14:20:22,347 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2017-12-25 14:20:22,360 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2017-12-25 14:20:22,399 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2017-12-25 14:20:22,426 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2017-12-25 14:20:22,433 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2017-12-25 14:20:22,442 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2017-12-25 14:20:22,456 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2017-12-25 14:20:22,464 INFO [com.netflix.discovery.DiscoveryClient:821] DiscoveryClient_PFDS-USER/PC-20160606PUVI:pfds-user:19061 - registration status: 204
+2017-12-25 14:20:22,479 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2017-12-25 14:20:22,486 INFO [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup:343] Starting beans in phase 2147483647
+2017-12-25 14:20:22,512 INFO [org.springframework.cloud.netflix.hystrix.HystrixCircuitBreakerConfiguration$HystrixMetricsPollerConfiguration:138] Starting poller
+2017-12-25 14:20:22,601 INFO [org.apache.juli.logging.DirectJDKLog:179] Initializing ProtocolHandler ["http-nio-19061"]
+2017-12-25 14:20:22,738 INFO [org.apache.juli.logging.DirectJDKLog:179] Starting ProtocolHandler ["http-nio-19061"]
+2017-12-25 14:20:22,778 INFO [org.apache.juli.logging.DirectJDKLog:179] Using a shared selector for servlet write/read
+2017-12-25 14:20:22,903 INFO [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 19061 (http)
+2017-12-25 14:20:22,905 INFO [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:168] Updating port to 19061
+2017-12-25 14:20:22,916 INFO [org.springframework.boot.StartupInfoLogger:57] Started UserStarter in 62.254 seconds (JVM running for 63.693)
+2017-12-25 14:20:26,783 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 14:20:26,784 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 14:20:26,784 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 14:20:26,785 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 14:20:26,785 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 14:20:26,785 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 14:20:26,785 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 14:20:26,790 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 14:20:31,813 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 14:20:31,815 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 14:20:31,815 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 14:20:31,820 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 14:20:31,820 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 14:20:31,820 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 14:20:31,820 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 14:20:31,886 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 14:20:41,475 INFO [org.apache.juli.logging.DirectJDKLog:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-25 14:20:41,476 INFO [org.springframework.web.servlet.FrameworkServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-25 14:20:41,580 INFO [org.springframework.web.servlet.FrameworkServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 104 ms
+2017-12-25 14:25:21,383 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-25 14:30:21,387 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-25 14:35:21,390 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-25 14:40:21,393 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-25 14:44:12,036 INFO [org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet:165] 
+
+Proxy opening connection to: http://localhost:19061/hystrix.stream
+
+
+2017-12-25 14:44:12,036 INFO [org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet:165] 
+
+Proxy opening connection to: http://localhost:19061/hystrix.stream
+
+
+2017-12-25 14:44:22,074 ERROR [org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet:217] Error proxying request: http://localhost:19061/hystrix.stream
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:207)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet.doGet(HystrixDashboardConfiguration.java:169)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.iebm.pfds.commons.config.filter.CorsFilter.doFilterInternal(CorsFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-12-25 14:44:22,076 ERROR [org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet:217] Error proxying request: http://localhost:19061/hystrix.stream
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:207)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet.doGet(HystrixDashboardConfiguration.java:169)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.iebm.pfds.commons.config.filter.CorsFilter.doFilterInternal(CorsFilter.java:30)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-12-25 14:45:21,396 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-25 14:48:50,159 INFO [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator:47] HHH000397: Using ASTQueryTranslatorFactory
+2017-12-25 14:49:06,758 INFO [org.springframework.context.support.AbstractApplicationContext:583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@60ebe9b6: startup date [Mon Dec 25 14:49:06 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2b0a3602
+2017-12-25 14:49:06,879 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-25 14:49:07,281 INFO [com.netflix.config.ChainedDynamicProperty$ChainLink:115] Flipping property: pfds-drug.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2017-12-25 14:49:07,370 INFO [com.netflix.util.concurrent.ShutdownEnabledTimer:58] Shutdown hook installed for: NFLoadBalancer-PingTimer-pfds-drug
+2017-12-25 14:49:07,436 INFO [com.netflix.loadbalancer.BaseLoadBalancer:185] Client:pfds-drug instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=pfds-drug,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2017-12-25 14:49:07,445 INFO [com.netflix.loadbalancer.DynamicServerListLoadBalancer:214] Using serverListUpdater PollingServerListUpdater
+2017-12-25 14:49:07,456 INFO [com.netflix.loadbalancer.DynamicServerListLoadBalancer:150] DynamicServerListLoadBalancer for client pfds-drug initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pfds-drug,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@2b583b8d
+2017-12-25 14:49:07,810 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:49:07,817 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:49:14,521 INFO [org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet:165] 
+
+Proxy opening connection to: http://localhost:19061/hystrix.stream
+
+
+2017-12-25 14:49:14,522 INFO [org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet:165] 
+
+Proxy opening connection to: http://localhost:19061/hystrix.stream
+
+
+2017-12-25 14:49:24,896 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:49:24,901 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:49:25,370 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:49:25,372 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:49:25,600 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:49:25,601 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:49:25,812 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:49:25,812 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:49:26,030 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:49:26,031 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:49:26,207 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:49:26,209 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:49:26,427 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:49:26,428 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:49:26,621 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:49:26,622 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:49:26,853 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:49:26,854 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:49:27,053 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:49:27,054 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:49:27,377 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:49:27,378 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:50:21,399 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-25 14:51:13,794 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:51:13,795 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:55:13,395 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by com.netflix.client.ClientException: Load balancer does not have available server for client: pfds-drug
+2017-12-25 14:55:13,400 INFO [com.iebm.pfds.user.controller.UserController:40] drugFeign return -1
+2017-12-25 14:55:21,403 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration

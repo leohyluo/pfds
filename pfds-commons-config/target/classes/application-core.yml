@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:19081/eureka/
+      defaultZone: http://localhost:19051/eureka/
     registry-fetch-interval-seconds: 5 #拉取服务注册信息时间间隔,默认为30秒
   instance:
     lease-renewal-interval-in-seconds: 5 #心跳时间,默认为30秒
@@ -13,6 +13,9 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 5000
+  threadpool: 
+    default: 
+      coreSize: 10            
 #数据库配置
 db:
   host: 192.168.29.54

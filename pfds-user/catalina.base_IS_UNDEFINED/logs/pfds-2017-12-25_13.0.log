@@ -1,0 +1,209 @@
+2017-12-25 13:28:58,741 INFO [org.springframework.context.support.AbstractApplicationContext:583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@28d1bb21: startup date [Mon Dec 25 13:28:58 CST 2017]; root of context hierarchy
+2017-12-25 13:28:59,335 INFO [org.hibernate.validator.internal.util.Version:30] HV000001: Hibernate Validator 5.3.5.Final
+2017-12-25 13:28:59,465 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-25 13:28:59,633 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8515b10c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 13:29:00,790 INFO [org.springframework.boot.SpringApplication:597] The following profiles are active: core
+2017-12-25 13:29:00,893 INFO [org.springframework.context.support.AbstractApplicationContext:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65f39a25: startup date [Mon Dec 25 13:29:00 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@28d1bb21
+2017-12-25 13:29:04,031 WARN [org.springframework.context.annotation.AutoProxyRegistrar:82] AutoProxyRegistrar was imported but no annotations were found having both 'mode' and 'proxyTargetClass' attributes of type AdviceMode and boolean respectively. This means that auto proxy creator registration and configuration may not have occurred as intended, and components may not be proxied as expected. Check to ensure that AutoProxyRegistrar has been @Import'ed on the same class where these annotations are declared; otherwise remove the import of AutoProxyRegistrar altogether.
+2017-12-25 13:29:04,925 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory:828] Overriding bean definition for bean 'retryTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$RetryAutoConfiguration; factoryMethodName=retryTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/client/loadbalancer/LoadBalancerAutoConfiguration$RetryAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.feign.ribbon.FeignRibbonClientAutoConfiguration; factoryMethodName=retryTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/feign/ribbon/FeignRibbonClientAutoConfiguration.class]]
+2017-12-25 13:29:05,302 INFO [org.springframework.cloud.context.scope.GenericScope:263] BeanFactory id=3e253dc3-b4e8-36da-b2cc-539b6a860d67
+2017-12-25 13:29:05,394 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-25 13:29:05,853 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$68fbae0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 13:29:06,320 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$b20de42d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 13:29:06,417 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$a681a8d1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 13:29:06,479 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 13:29:06,535 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 13:29:06,549 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration$$EnhancerBySpringCGLIB$$481d1bb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 13:29:06,589 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'cacheManager' of type [org.springframework.cache.concurrent.ConcurrentMapCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 13:29:06,606 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 13:29:06,662 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8515b10c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 13:29:08,396 INFO [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 19061 (http)
+2017-12-25 13:29:08,447 INFO [org.apache.juli.logging.DirectJDKLog:179] Starting service [Tomcat]
+2017-12-25 13:29:08,449 INFO [org.apache.juli.logging.DirectJDKLog:179] Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-12-25 13:29:08,723 INFO [org.apache.juli.logging.DirectJDKLog:179] Initializing Spring embedded WebApplicationContext
+2017-12-25 13:29:08,723 INFO [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 7830 ms
+2017-12-25 13:29:10,151 INFO [org.springframework.boot.web.servlet.ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-25 13:29:10,154 INFO [org.springframework.boot.web.servlet.ServletRegistrationBean:190] Mapping servlet: 'com.iebm.pfds.commons.config.servlet.DruidStatViewServlet' to [/druid/*]
+2017-12-25 13:29:10,168 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-25 13:29:10,169 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-25 13:29:10,170 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-25 13:29:10,170 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-25 13:29:10,171 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:271] Mapping filter: 'com.iebm.pfds.commons.config.filter.CorsFilter' to urls: [/*]
+2017-12-25 13:29:10,171 INFO [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:271] Mapping filter: 'druidWebStatFilter' to urls: [/*]
+2017-12-25 13:29:10,615 INFO [com.iebm.pfds.commons.config.DruidConfiguration$Druid:44] DruidConfiguration init completed................
+2017-12-25 13:29:12,372 INFO [com.alibaba.druid.pool.DruidDataSource:715] {dataSource-1} inited
+2017-12-25 13:29:12,608 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:349] Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-25 13:29:12,663 INFO [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-25 13:29:13,007 INFO [org.hibernate.Version:37] HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-25 13:29:13,012 INFO [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+2017-12-25 13:29:13,016 INFO [org.hibernate.cfg.Environment:317] HHH000021: Bytecode provider name : javassist
+2017-12-25 13:29:13,196 INFO [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-25 13:29:13,638 INFO [org.hibernate.dialect.Dialect:156] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-25 13:29:15,064 INFO [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:379] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-25 13:29:17,053 INFO [org.springframework.context.support.AbstractApplicationContext:583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3744a3ea: startup date [Mon Dec 25 13:29:17 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65f39a25
+2017-12-25 13:29:17,170 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-25 13:29:19,435 WARN [com.iebm.pfds.service.rpc.user.DrugFeignFallbackFactory:16] error on invoke pfds-drug cause by null
+2017-12-25 13:29:24,556 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65f39a25: startup date [Mon Dec 25 13:29:00 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@28d1bb21
+2017-12-25 13:29:25,134 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/user/drug/get],methods=[GET]}" onto public com.iebm.pfds.commons.core.web.ResponseMessage com.iebm.pfds.user.controller.UserController.getDrug()
+2017-12-25 13:29:25,137 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/user/{userId}],methods=[GET]}" onto public com.iebm.pfds.commons.core.web.ResponseMessage com.iebm.pfds.user.controller.UserController.getByUserId(java.lang.Long)
+2017-12-25 13:29:25,142 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-25 13:29:25,143 INFO [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-25 13:29:25,722 INFO [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 13:29:25,723 INFO [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 13:29:25,830 INFO [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:273] Detected @ExceptionHandler methods in controllerEnhancerment
+2017-12-25 13:29:26,115 INFO [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 13:29:29,844 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+2017-12-25 13:29:30,405 WARN [com.netflix.config.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+2017-12-25 13:29:30,407 INFO [com.netflix.config.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-12-25 13:29:30,429 WARN [com.netflix.config.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+2017-12-25 13:29:30,431 INFO [com.netflix.config.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-12-25 13:29:30,903 INFO [org.springframework.jmx.export.MBeanExporter:431] Registering beans for JMX exposure on startup
+2017-12-25 13:29:30,906 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-12-25 13:29:31,024 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-12-25 13:29:31,025 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-12-25 13:29:31,027 INFO [org.springframework.jmx.export.MBeanExporter:916] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-12-25 13:29:31,034 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-12-25 13:29:31,080 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-12-25 13:29:31,150 INFO [org.springframework.jmx.export.MBeanExporter:678] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=65f39a25,type=ConfigurationPropertiesRebinder]
+2017-12-25 13:29:31,175 INFO [org.springframework.jmx.export.MBeanExporter:671] Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-12-25 13:29:31,883 INFO [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup:343] Starting beans in phase 0
+2017-12-25 13:29:31,898 INFO [org.springframework.cloud.netflix.eureka.InstanceInfoFactory:70] Setting initial instance status as: STARTING
+2017-12-25 13:29:32,645 INFO [com.netflix.discovery.provider.DiscoveryJerseyProvider:70] Using JSON encoding codec LegacyJacksonJson
+2017-12-25 13:29:32,647 INFO [com.netflix.discovery.provider.DiscoveryJerseyProvider:71] Using JSON decoding codec LegacyJacksonJson
+2017-12-25 13:29:33,557 INFO [com.netflix.discovery.provider.DiscoveryJerseyProvider:80] Using XML encoding codec XStreamXml
+2017-12-25 13:29:33,559 INFO [com.netflix.discovery.provider.DiscoveryJerseyProvider:81] Using XML decoding codec XStreamXml
+2017-12-25 13:29:34,031 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-25 13:29:34,285 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 13:29:34,287 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 13:29:34,288 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 13:29:34,289 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 13:29:34,290 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 13:29:34,291 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: true
+2017-12-25 13:29:34,291 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 13:29:34,683 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 13:29:34,686 INFO [com.netflix.discovery.DiscoveryClient:1261] Starting heartbeat executor: renew interval is: 5
+2017-12-25 13:29:34,692 INFO [com.netflix.discovery.InstanceInfoReplicator:59] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-12-25 13:29:34,711 INFO [com.netflix.discovery.DiscoveryClient:461] Discovery Client initialized at timestamp 1514179774710 with initial instances count: 0
+2017-12-25 13:29:34,968 INFO [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:100] Registering application pfds-user with eureka with status UP
+2017-12-25 13:29:34,970 INFO [com.netflix.discovery.DiscoveryClient$3:1296] Saw local status change event StatusChangeEvent [timestamp=1514179774970, current=UP, previous=STARTING]
+2017-12-25 13:29:34,973 INFO [com.netflix.discovery.DiscoveryClient:812] DiscoveryClient_PFDS-USER/PC-20160606PUVI:pfds-user:19061: registering service...
+2017-12-25 13:29:35,114 INFO [org.apache.juli.logging.DirectJDKLog:179] Initializing ProtocolHandler ["http-nio-19061"]
+2017-12-25 13:29:35,193 INFO [org.apache.juli.logging.DirectJDKLog:179] Starting ProtocolHandler ["http-nio-19061"]
+2017-12-25 13:29:35,224 INFO [com.netflix.discovery.DiscoveryClient:821] DiscoveryClient_PFDS-USER/PC-20160606PUVI:pfds-user:19061 - registration status: 204
+2017-12-25 13:29:35,252 INFO [org.apache.juli.logging.DirectJDKLog:179] Using a shared selector for servlet write/read
+2017-12-25 13:29:35,346 INFO [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:201] Tomcat started on port(s): 19061 (http)
+2017-12-25 13:29:35,348 INFO [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:168] Updating port to 19061
+2017-12-25 13:29:35,357 INFO [org.springframework.boot.StartupInfoLogger:57] Started UserStarter in 37.782 seconds (JVM running for 39.524)
+2017-12-25 13:29:39,686 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 13:29:39,688 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 13:29:39,688 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 13:29:39,688 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 13:29:39,689 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 13:29:39,689 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 13:29:39,689 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 13:29:39,694 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 13:29:44,698 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 13:29:44,699 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 13:29:44,699 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 13:29:44,699 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 13:29:44,700 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 13:29:44,700 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 13:29:44,700 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 13:29:44,704 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 13:29:49,706 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 13:29:49,706 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 13:29:49,707 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 13:29:49,707 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 13:29:49,707 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 13:29:49,708 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 13:29:49,708 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 13:29:49,710 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 13:29:54,711 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 13:29:54,712 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 13:29:54,712 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 13:29:54,712 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 13:29:54,713 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 13:29:54,713 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 13:29:54,713 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 13:29:54,719 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 13:29:59,722 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 13:29:59,722 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 13:29:59,723 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 13:29:59,723 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 13:29:59,723 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 13:29:59,723 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 13:29:59,723 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 13:29:59,726 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 13:30:04,727 INFO [com.netflix.discovery.DiscoveryClient:937] Disable delta property : false
+2017-12-25 13:30:04,727 INFO [com.netflix.discovery.DiscoveryClient:938] Single vip registry refresh property : null
+2017-12-25 13:30:04,727 INFO [com.netflix.discovery.DiscoveryClient:939] Force full registry fetch : false
+2017-12-25 13:30:04,728 INFO [com.netflix.discovery.DiscoveryClient:940] Application is null : false
+2017-12-25 13:30:04,728 INFO [com.netflix.discovery.DiscoveryClient:941] Registered Applications size is zero : true
+2017-12-25 13:30:04,728 INFO [com.netflix.discovery.DiscoveryClient:943] Application version is -1: false
+2017-12-25 13:30:04,728 INFO [com.netflix.discovery.DiscoveryClient:1026] Getting all instance registry info from the eureka server
+2017-12-25 13:30:04,784 INFO [com.netflix.discovery.DiscoveryClient:1035] The response status is 200
+2017-12-25 13:31:17,038 INFO [org.apache.juli.logging.DirectJDKLog:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-25 13:31:17,038 INFO [org.springframework.web.servlet.FrameworkServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-25 13:31:17,198 INFO [org.springframework.web.servlet.FrameworkServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 159 ms
+2017-12-25 13:31:35,110 INFO [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator:47] HHH000397: Using ASTQueryTranslatorFactory
+2017-12-25 13:34:34,297 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2017-12-25 13:37:50,109 INFO [org.springframework.context.support.AbstractApplicationContext:984] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@28d1bb21: startup date [Mon Dec 25 13:28:58 CST 2017]; root of context hierarchy
+2017-12-25 13:37:50,112 INFO [org.springframework.context.support.AbstractApplicationContext:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65f39a25: startup date [Mon Dec 25 13:29:00 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@28d1bb21
+2017-12-25 13:37:50,113 INFO [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration:128] Unregistering application pfds-user with eureka with status DOWN
+2017-12-25 13:37:50,113 WARN [com.netflix.discovery.DiscoveryClient$3:1294] Saw local status change event StatusChangeEvent [timestamp=1514180270113, current=DOWN, previous=UP]
+2017-12-25 13:37:50,114 INFO [com.netflix.discovery.DiscoveryClient:869] Shutting down DiscoveryClient ...
+2017-12-25 13:37:50,115 INFO [com.netflix.discovery.DiscoveryClient:901] Unregistering ...
+2017-12-25 13:37:50,123 INFO [com.netflix.discovery.DiscoveryClient:903] DiscoveryClient_PFDS-USER/PC-20160606PUVI:pfds-user:19061 - deregister  status: 200
+2017-12-25 13:37:50,137 INFO [com.netflix.discovery.DiscoveryClient:890] Completed shut down of DiscoveryClient
+2017-12-25 13:37:50,144 INFO [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup:358] Stopping beans in phase 0
+2017-12-25 13:37:50,153 INFO [org.springframework.jmx.export.MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+2017-12-25 13:37:50,153 INFO [org.springframework.jmx.support.MBeanRegistrationSupport:241] Unregistering JMX-exposed beans
+2017-12-25 13:37:50,210 WARN [com.netflix.config.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+2017-12-25 13:37:50,210 INFO [com.netflix.config.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-12-25 13:37:50,217 INFO [org.springframework.context.support.AbstractApplicationContext:984] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3744a3ea: startup date [Mon Dec 25 13:29:17 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65f39a25
+2017-12-25 13:37:50,222 WARN [org.springframework.context.support.AbstractApplicationContext:994] Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:283)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:399)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:70)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.boot.builder.ParentContextCloserApplicationListener$ContextCloserListener.onApplicationEvent(ParentContextCloserApplicationListener.java:102)
+	at org.springframework.boot.builder.ParentContextCloserApplicationListener$ContextCloserListener.onApplicationEvent(ParentContextCloserApplicationListener.java:86)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.boot.devtools.restart.Restarter.stop(Restarter.java:321)
+	at org.springframework.boot.devtools.restart.Restarter$2.call(Restarter.java:258)
+	at org.springframework.boot.devtools.restart.Restarter$2.call(Restarter.java:254)
+	at org.springframework.boot.devtools.restart.Restarter$LeakSafeThread.run(Restarter.java:627)
+2017-12-25 13:37:50,223 INFO [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:548] Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-25 13:37:50,237 INFO [com.alibaba.druid.pool.DruidDataSource:1444] {dataSource-1} closed

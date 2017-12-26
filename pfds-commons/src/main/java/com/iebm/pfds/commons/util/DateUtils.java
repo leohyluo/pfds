@@ -16,12 +16,7 @@ public class DateUtils {
 
 	public static final String DATE_FORMAT = "yyyy-MM-dd";
 	public static final String DATE_TIME_FORMAT = "yyyy-MM-dd HH:mm:ss";
-	
-	/*public static float getAge(Date date) {
-		LocalDate birth = dateToLocalDate(date);
-		return getAge(birth);
-	}*/
-	
+		
 	public static float getAge(LocalDate birth) {
 		LocalDate today = LocalDate.now();
 		long dayDiff = ChronoUnit.DAYS.between(birth, today);

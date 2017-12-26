@@ -27,6 +27,7 @@ public class ResponseMessage implements Serializable {
 	}
 
 	public ResponseMessage(String data, ResponseStatus status) {
+		this.setData(data);
 		this.setCode(status.code());
 		this.setMsg(status.message());
 	}
