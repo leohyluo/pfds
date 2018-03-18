@@ -11,9 +11,11 @@
         <module name="pfds-commons-config" />
         <module name="pfds-commons-core" />
         <module name="pfds-drug" />
+        <module name="pfds-hystrix-dashboard" />
         <module name="pfds-service-discovery" />
         <module name="pfds-service-rpc" />
         <module name="pfds-user" />
+        <module name="pfdshystrixdashboard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,9 +25,11 @@
       <module name="pfds-commons-config" target="1.8" />
       <module name="pfds-commons-core" target="1.8" />
       <module name="pfds-drug" target="1.8" />
+      <module name="pfds-hystrix-dashboard" target="1.8" />
       <module name="pfds-service-discovery" target="1.8" />
       <module name="pfds-service-rpc" target="1.8" />
       <module name="pfds-user" target="1.8" />
+      <module name="pfdshystrixdashboard" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

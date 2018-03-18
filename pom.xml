@@ -23,7 +23,8 @@
         <!-- 用户模块 -->                     
         <module>pfds-user</module>
         <!-- 药品模块 -->
-        <module>pfds-drug</module>  
+        <module>pfds-drug</module>
+        <module>pfdshystrixdashboard</module>
     </modules>
     <distributionManagement>
         <repository>
