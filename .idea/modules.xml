@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/pfds-commons/pfds-commons.iml" filepath="$PROJECT_DIR$/pfds-commons/pfds-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/pfds-commons-config/pfds-commons-config.iml" filepath="$PROJECT_DIR$/pfds-commons-config/pfds-commons-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/pfds-commons-core/pfds-commons-core.iml" filepath="$PROJECT_DIR$/pfds-commons-core/pfds-commons-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pfds-commons-core/pfds-commons-core.iml" filepath="$PROJECT_DIR$/pfds-commons-core/pfds-commons-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/pfds-drug/pfds-drug.iml" filepath="$PROJECT_DIR$/pfds-drug/pfds-drug.iml" />
       <module fileurl="file://$PROJECT_DIR$/pfds-service-discovery/pfds-service-discovery.iml" filepath="$PROJECT_DIR$/pfds-service-discovery/pfds-service-discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/pfds-service-rpc/pfds-service-rpc.iml" filepath="$PROJECT_DIR$/pfds-service-rpc/pfds-service-rpc.iml" />
