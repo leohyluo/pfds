@@ -1,0 +1,23 @@
+#业务库
+spring: 
+ datasource: 
+  type: com.alibaba.druid.pool.DruidDataSource
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://192.168.55.215:8066/qf_bizdb?characterEncoding=utf8 
+  username: biz_user
+  password: hwsoft
+  initialSize: 5
+  minIdle: 5
+  maxActive: 20
+  maxWait: 60000
+  timeBetweenEvictionRunsMillis: 60000
+  minEvictableIdleTimeMillis: 300000
+  validationQuery: SELECT 'x'
+  testWhileIdle: true 
+  testOnBorrow: false
+  testOnReturn: false
+  poolPreparedStatements: true
+  maxPoolPreparedStatementPerConnectionSize: 20
+  filters: stat
+  connectionProperties: druid.stat.slowSqlMillis=5000;druid.stat.mergeSql=true
+  useGlobalDataSourceStat: true

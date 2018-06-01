@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:19051/eureka/
+      defaultZone: http://localhost:19081/eureka/
     registry-fetch-interval-seconds: 5 #拉取服务注册信息时间间隔,默认为30秒
   instance:
     lease-renewal-interval-in-seconds: 5 #心跳时间,默认为30秒
@@ -18,15 +18,15 @@ hystrix:
       coreSize: 10            
 #数据库配置
 db:
-  host: 192.168.29.54
+  host: 192.168.29.191
   port: 3306
-  name: test_db
+  name: dr_alpha
 #数据源配置
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    username: root
-    password: 
+    username: zhyx
+    password: ZYBqaz97
     url: jdbc:mysql://${db.host}:${db.port}/${db.name}?useUnicode=true&characterEncoding=utf8&useOldAliasMetadataBehavior=true
     druid:
       filter-class-names: stat

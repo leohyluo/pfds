@@ -4,7 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pfds-commons-core/pom.xml" />
+        <option value="$PROJECT_DIR$/pfds-hystrix-dashboard/pom.xml" />
       </list>
     </option>
   </component>

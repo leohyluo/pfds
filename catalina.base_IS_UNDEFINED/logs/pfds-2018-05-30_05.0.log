@@ -1,0 +1,12 @@
+2018-05-30 05:02:50,089 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2018-05-30 05:07:50,093 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2018-05-30 05:12:50,094 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2018-05-30 05:17:50,095 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2018-05-30 05:22:50,096 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2018-05-30 05:27:50,098 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2018-05-30 05:32:50,100 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2018-05-30 05:37:50,101 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2018-05-30 05:42:50,102 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2018-05-30 05:47:50,103 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2018-05-30 05:52:50,104 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration
+2018-05-30 05:57:50,106 INFO [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] Resolving eureka endpoints via configuration

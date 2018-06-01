@@ -15,7 +15,6 @@
         <module name="pfds-service-discovery" />
         <module name="pfds-service-rpc" />
         <module name="pfds-user" />
-        <module name="pfdshystrixdashboard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,7 +28,6 @@
       <module name="pfds-service-discovery" target="1.8" />
       <module name="pfds-service-rpc" target="1.8" />
       <module name="pfds-user" target="1.8" />
-      <module name="pfdshystrixdashboard" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

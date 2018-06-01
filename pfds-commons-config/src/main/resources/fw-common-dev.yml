@@ -1,0 +1,37 @@
+#dataSource 数据源配置，目前设定是五个库五个数据源
+spring: 
+ datasource: 
+  qf_bizdb:
+   url: jdbc:mysql://127.0.0.1:3306/qf_bizdb?characterEncoding=utf8
+   username: root
+   password: 123456
+   driver-class-name: com.mysql.jdbc.Driver
+  qf_frwdb:
+   url: jdbc:mysql://127.0.0.1:3306/qf_frwdb?characterEncoding=utf8
+   username: root
+   password: 123456
+   driver-class-name: com.mysql.jdbc.Driver
+  fw_user:
+   url: jdbc:mysql://127.0.0.1:3306/tms_user?characterEncoding=utf8
+   username: root
+   password: 123456
+   driver-class-name: com.mysql.jdbc.Driver
+# mybatis扫描配置，各个数据源根据库名声明文件目录
+
+mybatis:
+ qf_accdb:
+  mapperLocations: classpath:mybatis/mapper/qf_accdb/*.xml
+ qf_bizdb:
+  mapperLocations: classpath:mybatis/mapper/qf_bizdb/*.xml
+ qf_cfgdb:
+  mapperLocations: classpath:mybatis/mapper/qf_cfgdb/*.xml
+ qf_frwdb:
+  mapperLocations: classpath:mybatis/mapper/qf_frwdb/*.xml
+ qf_taxdb:
+  mapperLocations: classpath:mybatis/mapper/qf_taxdb/*.xml
+ fw_sys:
+  mapperLocations: classpath:mybatis/mapper/fw_sys/*.xml
+ fw_user:
+  mapperLocations: classpath:mybatis/mapper/fw_user/*.xml
+ fw_flowwork:
+  mapperLocations: classpath:mybatis/mapper/fw_flowwork/*.xml

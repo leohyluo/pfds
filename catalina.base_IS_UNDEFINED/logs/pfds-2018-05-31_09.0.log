@@ -1,0 +1,6 @@
+2018-05-31 09:44:33,686 INFO [org.springframework.context.support.AbstractApplicationContext:583] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2bd08376: startup date [Thu May 31 09:44:33 CST 2018]; root of context hierarchy
+2018-05-31 09:44:34,059 INFO [org.hibernate.validator.internal.util.Version:30] HV000001: Hibernate Validator 5.3.5.Final
+2018-05-31 09:44:34,081 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-31 09:44:34,150 INFO [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$776f0221] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 09:44:43,950 INFO [com.iebm.pfds.commons.utils.CloudConfigSupportConfiguration:30] 检查Config Service配置资源
+2018-05-31 09:46:25,830 INFO [com.iebm.pfds.commons.utils.CloudConfigSupportConfiguration:33] 加载PropertySources源：8个

@@ -1,12 +1,12 @@
 spring:
   profiles:
-    active: home
+    active: dev
   application:
     name: pfds-user
 server:
   port: 19061
-logging:
-  config: classpath:logback-pfds-user.xml
+#logging:
+#  config: classpath:logback-pfds-user.xml
 #跳闸的最小请求数量
 hystrix: 
   command: 

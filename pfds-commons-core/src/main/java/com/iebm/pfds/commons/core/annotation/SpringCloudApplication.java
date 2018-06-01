@@ -6,6 +6,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+import com.iebm.pfds.commons.annotation.EnableLogAOP;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
@@ -23,6 +24,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 @EnableAsync
 @EnableCaching
+@EnableLogAOP   //使用日志aop
 public @interface SpringCloudApplication {
 
 }
